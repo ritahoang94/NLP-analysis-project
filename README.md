@@ -73,3 +73,8 @@ Ensemble models can gain advantages by reducing the variances of each classifier
 
 The R script used to ensemble result was written in “final ensemble.R” in the R_code folder. The final prediction is calculated by getting the prediction of each model and multiplying it by the number of votes for that specific model. The prediction with the highest frequency is chosen.
 
+# Predicting result
+We used the output result of the ensemble as our final submission. Our submission includes the following files:
+- “testing labels pred.txt”: final prediction
+- “Ensemble member.zip”: prediction of each member of the ensemble
+- “Rcode.zip”: R codes used for predicting results
